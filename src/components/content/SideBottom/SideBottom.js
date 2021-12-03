@@ -16,6 +16,7 @@ export default function SideBottom() {
             </div>
 
             <div className="container">
+                <div className='cardbox'>
                 <div className="card">
                     <div className="box">
 
@@ -39,6 +40,7 @@ export default function SideBottom() {
 
 
                 </div>
+                </div >
 
                 <div className='bottom'>
 

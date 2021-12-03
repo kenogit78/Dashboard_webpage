@@ -5,6 +5,9 @@ import { RiTimerFill } from 'react-icons/ri'
 import { BsAlignMiddle } from 'react-icons/bs'
 import { BiTimer } from 'react-icons/bi'
 import { MdOutlineAvTimer } from 'react-icons/md'
+import { TiArrowMoveOutline } from "react-icons/ti";
+import { HiMenuAlt3 } from 'react-icons/hi'
+
 
 export default function Search() {
 
@@ -37,6 +40,12 @@ export default function Search() {
     return (
 
         <div>
+            <div className='real-top'>
+            <div className='top'>
+                <TiArrowMoveOutline fontSize='2.5em' color='#774DFF' />
+                {/* <p> Virtual Dashboard</p> */}
+                </div>
+
             <div className='search'>
                 <div className='icon'>
               <AiOutlineSearch fontSize='1.5em' color='#774DFF' />
@@ -46,6 +55,13 @@ export default function Search() {
                      placeholder='Search'
                  />
                  </div>
+            </div>
+
+            <div className='top-menu' >
+                
+                <HiMenuAlt3 fontSize='1.5em' color='#774DFF'/>
+            </div>
+
             </div>
 
         <div className='stats'>

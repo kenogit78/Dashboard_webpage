@@ -57,3 +57,33 @@
     background: #774DFF;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 978px){
+    .side-top .top{
+        display: none
+       
+    }
+
+    .side-top-cards{
+       
+        width: 80%
+    }
+    
+}
+
+@media screen and (max-width:568px){
+    .search {
+        border-radius: 20px;
+        display: flex;    
+        width: 170px;
+        background: #fff;
+        color: #774DFF;
+        padding: 0.5em;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    .real-top .top{
+        display: block;
+    }
+    
+}
