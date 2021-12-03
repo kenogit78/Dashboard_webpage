@@ -66,10 +66,14 @@ color: #774DFF
 
 @media screen and (max-width: 978px){
    
-    .real-top .top{
+    .real-top .top-menu{
         display: block;
     }
 
+    .real-top .top{
+        display: none;
+    
+}
    
     
 }
@@ -85,10 +89,15 @@ color: #774DFF
         align-items: center;
         /* justify-content: space-between; */
     }
+        .stats .stat-content .stat-text h3{
+            font-size: 1.2em;
+        font-weight: 600
+        }
+    
 
 
-    .real-top .top-menu{
+    .real-top .top{
         display: block;
     
-}
+    }
 }

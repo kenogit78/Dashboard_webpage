@@ -8,11 +8,11 @@ import SideMiddle from './SideMiddle/SideMiddle'
 import SideTop from './SideTop/SideTop'
 
 
-export default function Content() {
+export default function Content( {toggle}) {
     return (
         <div className='content'>
             <div className='main-dashboard'>
-                <Search />
+                <Search toggle={toggle} />
                 <Graph />
                 <CardStats />
             

@@ -9,7 +9,7 @@ import { TiArrowMoveOutline } from "react-icons/ti";
 import { HiMenuAlt3 } from 'react-icons/hi'
 
 
-export default function Search() {
+export default function Search( {toggle}) {
 
     const stat = [
         {
@@ -42,7 +42,7 @@ export default function Search() {
         <div>
             <div className='real-top'>
             <div className='top'>
-                <TiArrowMoveOutline fontSize='2.5em' color='#774DFF' />
+                <TiArrowMoveOutline fontSize='2.5em' color='#774DFF' cursor='pointer' onClick={toggle} />
                 {/* <p> Virtual Dashboard</p> */}
                 </div>
 
