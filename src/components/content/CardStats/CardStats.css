@@ -1,0 +1,59 @@
+
+
+
+.card-stats .stats{
+    display: flex;
+    margin:2em 0;
+    justify-content: space-between;
+    max-width: 100%;
+    
+}
+
+.card-stats .stats .stat-content{
+    display: flex;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0.5em ;
+    border-radius: 20px;
+    align-items: center;
+    width: 200px
+}
+
+.card-stats .stats .stat-content .stat-text p {
+   font-size: 0.7em;
+}
+
+.card-stats .stats .stat-content .icon{
+    display: flex;
+    background: #774DFF;
+    padding: 0.5em;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card-stats .details .detail-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+   
+   
+}
+
+.card-stats .details .deal{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-stats .details #state p{
+    background: #fff;
+    padding: 0.3em 0.5em;
+    border-radius: 10px;
+    margin-bottom: 1.4em;
+    color: #774DFF
+}
+
+.card-stats .details .deal p{
+    margin-bottom: 2em;
+    font-size: 0.8em;
+}

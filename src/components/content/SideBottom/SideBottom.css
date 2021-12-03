@@ -1,0 +1,209 @@
+.side-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bottom .audit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-bottom .audit h3{
+    color: #774DFF
+
+}
+
+.side-bottom .audit .date{
+    display: flex;
+    background: #fff;
+    padding: 0.5em;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-bottom .audit .date p{
+    font-size: 0.8em;
+    margin-right: 0.5em;
+}
+
+
+.side-bottom .container .card
+{
+  position:relative;
+  width:250px;
+  /* background:linear-gradient(0deg,#1b1b1b,#222,#1b1b1b); */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:150px;
+  border-radius:4px;
+  text-align:center;
+  overflow:hidden;
+  transition:0.5s;
+  margin-top: 1.5em;
+  
+}
+
+/* .side-bottom .container .card:before
+{
+  content:'';
+  position:absolute;
+  top:0;
+  left:-50%;
+  width:100%;
+  height:100%;
+  background:rgba(255,255,255,.03);
+  pointer-events:none;
+  z-index:1;
+} */
+.side-bottom .percent
+{
+  position:relative;
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  /* box-shadow: inset 0 0 50px #000; */
+  background:#774DFF;
+  z-index:10;
+}
+.side-bottom .percent .num
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  border: 1em solid #fff;
+ 
+}
+.side-bottom .percent .num h2
+{
+  color:#fff;
+  font-weight:700;
+  font-size: 2.3em;
+  transition:0.5s;
+  margin-bottom: 0.1em;
+}
+
+.side-bottom .percent .num p
+{
+  color:#fff;
+  font-size: 0.7em
+}
+/* .side-bottom .card:hover .percent .num h2
+{
+  color:#fff;
+  font-size:60px;
+} */
+.side-bottom .percent .num h2 span
+{
+  color:#777;
+  font-size:24px;
+  transition:0.5s;
+}
+/* .side-bottom .card:hover .percent .num h2 span
+{
+  color:#fff;
+} */
+
+/* .side-bottom .card:hover .text
+{
+  color:#fff;
+} */
+.side-bottom .container svg
+{
+  position:relative;
+  width:200px;
+  height:200px;
+  z-index:1000;
+
+}
+.side-bottom .container svg circle
+{
+  width:100%;
+  height:100%;
+
+  fill:none;
+  stroke:#fff;
+  stroke-width:10;
+  stroke-linecap:round;
+  transform:translate(5px,5px);
+
+}
+.side-bottom .container svg circle:nth-child(2)
+{
+  stroke-dasharray:400;
+  stroke-dashoffset:400;
+}
+.side-bottom .card:nth-child(1) svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(400 - (350 * 70) / 70);
+  stroke:#774DFF;
+}
+
+.side-bottom .bottom p
+{
+  font-size: 0.8em
+}
+
+.side-bottom .text
+{
+  position:relative;
+  color:#774DFF;
+  margin-top:20px;
+  font-weight:700;
+  font-size:18px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  transition:0.5s;
+}
+
+.side-bottom .container .loader
+{
+    width: 50%;
+   
+    padding: 20px 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.side-bottom .progress{
+width: 100%;
+max-width: 260px;
+height: 6px;
+background: #e1e4e8;
+border-radius: 3px;
+overflow: hidden;
+margin-top: 0.5em;
+}
+
+.side-bottom .progress span{
+   width: 38%;
+}
+
+.side-bottom .progress .progress-bar{
+display: block;
+height: 100%;
+background: #774DFF;
+background-size: 300% 100%;
+animation: progress-animation 2s linear infinite;
+}
+
+@keyframes progress-animation{
+  0%{
+    background-position: 100%
+  }
+   
+  100%{
+    background-position: 0
+  }
+}

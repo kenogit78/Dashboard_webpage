@@ -1,0 +1,50 @@
+
+ .search {
+    border-radius: 20px;
+    display: flex;    
+    width: 300px;
+    background: #fff;
+    color: #774DFF;
+    padding: 0.5em 1em;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.search input{
+    background: transparent;
+     border: none;
+     outline: none;
+     margin-left: 0.5em;
+     padding: 0.5em;
+color: #774DFF
+}
+.stats{
+    display: flex;
+    margin:2em 0;
+    justify-content: space-between
+}
+
+.stats .stat-content{
+    display: flex;
+ 
+}
+
+.stats .stat-content .stat-text{
+    margin-left: 0.5em;
+ 
+}
+
+.stats .stat-content .stat-text p{
+    font-size: 0.9em;
+ 
+}
+
+.stats .stat-content .stat-text strong{
+    font-size: 0.9em;
+ 
+}
+.stats .stat-content .stat-text h3{
+    font-size: 1.5em;
+ color:#774DFF;
+ margin: 0.2em 0;
+}

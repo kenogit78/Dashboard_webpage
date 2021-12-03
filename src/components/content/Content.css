@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    background: #F3F3FF;
+    margin: 2em 2em 2em 10em;
+    border-radius: 20px;
+    padding: 2em 2em 2em 6em;
+}
+
+.main-dashboard{
+    width:75%;
+    height: 100%;
+    padding: 2em;
+}
+
+.side-dashboard{
+    width: 25%;
+    height: 100%;
+    padding: 1em;
+  
+}
+
+
+

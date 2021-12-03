@@ -1,0 +1,100 @@
+.side-middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.side-middle .analytics{
+    margin: 1em;
+    color:#774DFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.side-middle .analytics .top{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%
+}
+
+.side-middle .analytics .analytics-chart{
+    display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   /* width: 100%; */
+   margin: 0.5em 0;
+}
+
+.side-middle .analytics .analytics-chart .box1{
+    display: flex;
+    flex-direction: column;
+   justify-content:flex-end;
+   align-items: center;
+   background: #fff;
+   padding: 1em;
+   margin: 0 0.5em;
+   height: 100px;
+  border-radius: 10px;
+}
+
+.side-middle .analytics .analytics-chart .box2{
+    display: flex;
+    flex-direction: column;
+   justify-content:flex-end;
+   align-items: center;
+   background: #fff;
+   padding: 1em;
+   margin: 0 0.5em;
+   height: 170px;
+  border-radius: 10px;
+}
+
+.side-middle .analytics .analytics-chart .box3{
+    display: flex;
+    flex-direction: column;
+   justify-content:flex-end;
+   align-items: center;
+   background: #fff;
+   padding: 1em;
+   margin: 0 1em;
+   height: 100px;
+   width: 50px;
+  border-radius: 10px;
+}
+
+.side-middle .analytics .date{
+  display: flex;
+  margin: 2em 0 1em 0;
+ 
+}
+
+.side-middle .analytics .date .days{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  margin: 0 0.3em;
+}
+
+.side-middle .analytics .date #active{
+background: #fff;
+padding: 0.5em;
+color: #000;
+border-radius: 20px;
+
+}
+
+.side-middle .analytics .date .days p{
+ font-size: 0.8em;
+ color: #000;
+ margin-bottom: 1em;
+}
+
+.side-middle .analytics .date .days h3{
+ font-size: 1.1em;
+ 
+}
+
